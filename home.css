@@ -1,0 +1,50 @@
+*{
+    background-image: url('main_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+}
+.name{
+    font-family: 'Lucida Handwriting', 'Cursive', sans-serif;
+    color:#e8d1c5;
+    font-size: large;
+    text-align: center;
+    margin-top: 5cm;
+    margin-right:15cm;
+    margin-left:17cm
+}
+.name container{
+    display: grid;
+    gap: 50px 100px;
+
+    
+}
+.buttons {
+    text-align:end;
+    margin-top: 0.5em; /* Add margin for spacing from the top */
+    background-color: saddlebrown;
+    margin-right: 3cm;
+}
+
+.buttons button {
+    /* font-family: 'Lucida Handwriting', 'Cursive', sans-serif; */
+    
+    background-color: #b2521e1d; /* Button background color */
+    color: #c5e8c9; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside the button */
+    margin: 5px; /* Spacing between buttons */
+    font-size: large;
+    border: 2px solid #b2521e;
+    
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.buttons button:hover {
+    background-color: #d1bfa3; /* Button background color on hover */
+    
+    border-color: rgba(0, 0, 0, 0); /* Border color on hover */
+    transform: scale(1.1); /* Enlarge the button */
+}
